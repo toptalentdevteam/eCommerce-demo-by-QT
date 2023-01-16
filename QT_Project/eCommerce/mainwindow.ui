@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/new/images/images/design.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLazada">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+    background-color:#155E4A;
+    border-style: outset;
+	color: #fff
+    }
+
+
+QPushButton:hover {   
+    border: 1px solid black;
+    border-radius: 5px;   
+    background-color:#06c0df;
+}</string>
+    </property>
+    <property name="text">
+     <string>LAZADA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnShopee">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>0</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+    background-color:#155E4A;
+    border-style: outset;
+	color: #fff
+    }
+
+
+QPushButton:hover {   
+    border: 1px solid black;
+    border-radius: 5px;   
+    background-color:#06c0df;
+}</string>
+    </property>
+    <property name="text">
+     <string>SHOPEE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnShopify">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>0</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+    background-color:#155E4A;
+    border-style: outset;
+	color: #fff
+    }
+
+
+QPushButton:hover {   
+    border: 1px solid black;
+    border-radius: 5px;   
+    background-color:#06c0df;
+}</string>
+    </property>
+    <property name="text">
+     <string>SHOPIFY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTiktok">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>0</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+    background-color:#155E4A;
+    border-style: outset;
+	color: #fff
+    }
+
+
+QPushButton:hover {   
+    border: 1px solid black;
+    border-radius: 5px;   
+    background-color:#06c0df;
+}</string>
+    </property>
+    <property name="text">
+     <string>TIKTOK</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAmazon">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>0</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+    background-color:#155E4A;
+    border-style: outset;
+	color: #fff
+    }
+
+
+QPushButton:hover {   
+    border: 1px solid black;
+    border-radius: 5px;   
+    background-color:#06c0df;
+}</string>
+    </property>
+    <property name="text">
+     <string>AMAZON</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ledUsername">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border: 1px solid yellow;
+	background-color: rgba(0,0,0,0);
+	color: white
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Username:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ledPassword">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	border: 1px solid yellow;
+	background-color: rgba(0,0,0,0);
+	color: white
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Password:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLogin">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>180</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+    background-color:#155E4A;
+    border-style: outset;
+	color: #fff
+    }
+
+
+QPushButton:hover {   
+    border: 1px solid black;
+    border-radius: 5px;   
+    background-color:#06c0df;
+}</string>
+    </property>
+    <property name="text">
+     <string>Log in</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>890</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

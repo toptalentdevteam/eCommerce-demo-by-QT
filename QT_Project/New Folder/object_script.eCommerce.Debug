@@ -1,0 +1,10 @@
+debug/followers.o
+debug/list.o
+debug/main.o
+debug/mainwindow.o
+debug/products.o
+debug/qrc_images.o
+debug/moc_followers.o
+debug/moc_list.o
+debug/moc_mainwindow.o
+debug/moc_products.o

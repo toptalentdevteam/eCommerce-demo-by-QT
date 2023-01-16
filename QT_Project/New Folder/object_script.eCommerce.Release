@@ -1,0 +1,10 @@
+release/followers.o
+release/list.o
+release/main.o
+release/mainwindow.o
+release/products.o
+release/qrc_images.o
+release/moc_followers.o
+release/moc_list.o
+release/moc_mainwindow.o
+release/moc_products.o
